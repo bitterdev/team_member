@@ -1,0 +1,3 @@
+# Team Member 
+
+The Team Member add-on for Concrete CMS is a must-have for any website that wants to present its team in a professional and visually appealing way. It introduces a custom block type called TeamMember, designed to display individual team members with all relevant information. You can easily add and manage details such as name, photo, job title, email address, and business profiles like LinkedIn, Xing, and more. Whether you're building a corporate site, agency portfolio, or startup landing page, this add-on provides a clean and customizable solution to give your team the visibility they deserve. Fully responsive and easy to integrate, it's ideal for making your organization feel more personal and approachable.

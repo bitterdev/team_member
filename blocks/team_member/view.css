@@ -1,0 +1,44 @@
+html .ccm-page .team-member {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+@media screen and (max-width: 991px) {
+    html .ccm-page .team-member {
+        padding: 0;
+    }
+}
+
+html .ccm-page .team-member img {
+    border-radius: 25px;
+    margin-bottom: 2rem;
+}
+
+html .ccm-page .team-member p, html .ccm-page .team-member .links {
+    text-align: left;
+    line-height: 1.25;
+}
+
+html .ccm-page .team-member .links {
+    margin-top: auto;
+}
+
+html .ccm-page .team-member .links a {
+    background: var(--bs-body);
+    color: #fff;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    line-height: 35px;
+    text-align: center;
+    font-size: 17.5px;
+    text-decoration: none !important;
+    margin: 5px;
+}
+
+html .ccm-page .team-member .links a i {
+    margin-left: 0 !important;
+}

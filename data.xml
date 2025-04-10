@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concrete5-cif version="1.0">
+    <blocktypes>
+        <blocktype handle="team_member" package="team_member"/>
+    </blocktypes>
+    <thumbnailtypes>
+        <thumbnailtype name="Team Member Thumbnail" handle="team_member_thumbnail" sizingMode="exact" width="960"
+                       height="540"/>
+    </thumbnailtypes>
+</concrete5-cif>

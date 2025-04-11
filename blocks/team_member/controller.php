@@ -48,9 +48,7 @@ class Controller extends BlockController
         $formValidator = $this->app->make(Validation::class);
 
         $formValidator->setData($args);
-        //$formValidator->addUploadedImage("photoFileId", t("You need to select a valid image."), false);
         $formValidator->addRequired("fullName", t("You need to enter a the full name."));
-        $formValidator->addRequired("position", t("You need to enter a valid position."));
 
         if (!$formValidator->test()) {
             $errorList = $formValidator->getError();

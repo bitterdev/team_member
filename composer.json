@@ -1,5 +1,10 @@
 {
   "name": "bitter/team_member",
   "type": "concrete5-package",
-  "description": "Easily showcase your team members with editable profiles including photo, role, contact details, and social links."
+  "description": "Easily showcase your team members with editable profiles including photo, role, contact details, and social links.",
+  "autoload": {
+    "psr-4": {
+      "Bitter\\TeamMember\\": "src/Bitter/TeamMember"
+    }
+  }
 }

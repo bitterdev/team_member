@@ -1,0 +1,5 @@
+{
+  "name": "bitter/team_member",
+  "type": "concrete5-package",
+  "description": "Easily showcase your team members with editable profiles including photo, role, contact details, and social links."
+}

@@ -42,6 +42,9 @@ $instagram = $instagram ?? "";
 
 /** @noinspection PhpUnhandledExceptionInspection */
 View::element("dashboard/help_blocktypes", [], "team_member");
+
+/** @noinspection PhpUnhandledExceptionInspection */
+View::element("dashboard/did_you_know", [], "team_member");
 ?>
 
 <div class="form-group">
